@@ -26,3 +26,14 @@ Based on the textbook:
 | 1 | 0.9500 | 2.0000 | 1.4750 | 3.5695 |
 | 2 | 1.4250 | 2.0000 | 1.7125 | 3.3962 |
 *(Data source: Textbook Table 2.2)*
+
+
+## Visualizing the Process
+The following graph demonstrates how the search interval $[a, b]$ shrinks during each iteration:
+
+![Bisection Visualization](bisection_plot.png)
+
+### Key Observations:
+* **Initial Interval**: The algorithm starts with $[0, 2]$.
+* **Points $x_1, x_2$**: Two points are placed symmetrically around the center, separated by $\delta$.
+* **Convergence**: By comparing $f(x_1)$ and $f(x_2)$, the method eliminates the part of the interval where the minimum cannot exist.
