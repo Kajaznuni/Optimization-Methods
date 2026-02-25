@@ -17,7 +17,7 @@ Based on the textbook:
 ## Numerical Example (Page 45)
 - **Function**: $f(x) = \frac{1}{4}x^4 + x^2 - 8x + 12$
 - **Interval**: $[0, 2]$
-- **Parameters**: $\epsilon = 0.05$, $\delta = 0.1$
+- **Parameters**: $\epsilon = 0.5$, $\delta = 0.1$
 
 ### Results Table
 | Step | $a_k$ | $b_k$ | $x_m$ | $f(x^*)$ |
