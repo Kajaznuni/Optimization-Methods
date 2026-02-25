@@ -34,3 +34,4 @@ Based on the textbook example (Page 42):
 | 2.0 | 4.0000 |
 
 **Result**: The approximate minimum is at $x = 1.5$.
+![Optimization Results Graph](optimization_plot.png)
