@@ -23,7 +23,7 @@ def bisection_method(a, b, eps, delta):
 
 # Input data from textbook page 45
 a_val, b_val = 0, 2
-epsilon = 0.05
+epsilon = 0.5
 delta_val = 0.1
 
 result_x, result_f = bisection_method(a_val, b_val, epsilon, delta_val)
