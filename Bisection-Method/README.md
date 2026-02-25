@@ -1,4 +1,4 @@
-# 2.2 Half-Interval (Bisection) Method
+#  Half-Interval (Bisection) Method
 
 This implementation follows the Bisection (Dichotomy) method to optimize a unimodal function by iteratively narrowing the search interval.
 
