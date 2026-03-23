@@ -1,0 +1,42 @@
+# Golden Section Method
+
+## Definition
+The Golden Section Method is an optimization technique used to find the 
+minimum of a unimodal function on a closed interval [a, b].
+
+## Golden Ratio
+The method is based on the golden ratio:
+
+Whole segment / larger part = larger part / smaller part
+
+Numerical value:
+φ ≈ 1.618
+
+## Choosing Points
+
+Given an interval [a, b], we define:
+
+x1 = a + 0.382(b - a)  
+x2 = a + 0.618(b - a)
+
+Also:
+x2 = a + b - x1
+
+## Algorithm
+
+1. Compute f(x1) and f(x2)
+2. If f(x1) ≤ f(x2), then the new interval is [a, x2]
+3. If f(x1) > f(x2), then the new interval is [x1, b]
+4. Repeat until (b - a) ≤ ε
+
+## Final Result
+
+The approximate minimum point is:
+
+x* ≈ (a + b) / 2
+
+## Advantages
+
+- Does not require derivatives
+- Stable and efficient
+- Suitable for optimization problems
