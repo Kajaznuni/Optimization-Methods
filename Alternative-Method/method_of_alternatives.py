@@ -1,6 +1,6 @@
 import numpy as np
 
-# Function from your Armenian textbook
+# Function from textbook
 def f(x):
     return 0.25 * (x**4) + (x**2) - (8*x) + 12
 
@@ -14,7 +14,7 @@ def uniform_search(a, b, epsilon):
     
     return min_x, min_val, n
 
-# Data from page 42 of your textbook
+# Data from page 42 of textbook
 a, b = 0, 2
 epsilon = 0.5
 
