@@ -12,13 +12,14 @@ We use the following example function throughout:
 f(x)=0.25x4+x2−8x+12
 
 These methods are fundamental in mathematics, engineering, and data science when solving optimization problems or minimizing functions efficiently.
+-
 Overview of Methods
+-
 1. Alternative Method
 -   
 How it works: The interval is divided into evenly spaced points. Each point is evaluated, and the smallest function value is selected.
 Pros: Simple and straightforward.
 Cons: Requires many evaluations for higher accuracy.
-
 2. Bisection Method
 -
 How it works: Uses the derivative of the function to iteratively shrink the interval containing the minimum. The derivative’s sign indicates which subinterval contains the minimum.
