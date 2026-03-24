@@ -18,7 +18,7 @@ Overview of Methods
 How it works: The interval is divided into evenly spaced points. Each point is evaluated, and the smallest function value is selected.
 Pros: Simple and straightforward.
 Cons: Requires many evaluations for higher accuracy.
--
+
 2. Bisection Method
 -
 How it works: Uses the derivative of the function to iteratively shrink the interval containing the minimum. The derivative’s sign indicates which subinterval contains the minimum.
