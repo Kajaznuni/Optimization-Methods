@@ -9,7 +9,7 @@ Golden Section Search
 We use the following example function throughout:
 
 
-f(x)=0.25x4+x2−8x+12
+f(x)=0.25x^4+x^2−8x+12
 
 These methods are fundamental in mathematics, engineering, and data science when solving optimization problems or minimizing functions efficiently.
 -
