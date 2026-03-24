@@ -76,5 +76,10 @@ plt.legend()
 plt.xlim(a - 0.2, b + 0.2)
 plt.ylim(min(y_curve) - 1, max(y_curve) + 1)
 
+
 plt.savefig('golden_section_plot.png')
 plt.show()
+print(f"Results for Golden Section Method:")
+print(f"Number of steps: {n_steps}")
+print(f"Minimum found at x = {x_opt}")
+print(f"f(x) = {f_opt}")
