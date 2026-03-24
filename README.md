@@ -1,5 +1,7 @@
-Optimization Method:
+            Optimization Method:
+            
 Finding the Minimum of a Function
+
 This repository demonstrates three popular numerical optimization techniques for locating the minimum of a single-variable function:
 Uniform Search (Method of Alternatives)
 Bisection Method
