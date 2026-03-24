@@ -55,34 +55,6 @@ x_2 = a + \phi (b - a)
 
 ---
 
-## Example
-
-Minimize:
-
-\[
-f(x) = \frac{1}{4}x^4 + x^2 - 8x + 12, \quad [a, b] = [0, 2]
-\]
-
-Initial points:
-- \(x_1 = 0.7638\)
-- \(x_2 = 1.2360\)
-
-Function values:
-- \(f(x_1) = 6.5581\)
-- \(f(x_2) = 4.2232\)
-
-Since:
-\[
-f(x_1) > f(x_2)
-\]
-
-Update interval:
-\[
-[a, b] = [x_1, 2]
-\]
-
----
-
 ## Advantages
 - No derivative required
 - Efficient interval reduction
