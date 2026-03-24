@@ -31,8 +31,8 @@ x_2 = a + \phi (b - a)
    - Set tolerance \(\varepsilon\)
 
 2. Compute:
-   - \(x_1 = a + 0.3819 (b - a)\)
-   - \(x_2 = a + 0.6180 (b - a)\)
+   - \x_1 = a + 0.3819 (b - a)\
+   - \x_2 = a + 0.6180 (b - a)\
 
 3. Evaluate:
    - Compute \(f(x_1)\), \(f(x_2)\)
@@ -67,24 +67,3 @@ x_2 = a + \phi (b - a)
 - Requires unimodality assumption
 
 ---
-
-## Python Implementation
-
-```python
-def golden_section_search(f, a, b, tol=1e-5):
-    phi = (5**0.5 - 1) / 2
-
-    x1 = a + (1 - phi) * (b - a)
-    x2 = a + phi * (b - a)
-
-    while abs(b - a) > tol:
-        if f(x1) > f(x2):
-            a = x1
-            x1 = x2
-            x2 = a + phi * (b - a)
-        else:
-            b = x2
-            x2 = x1
-            x1 = a + (1 - phi) * (b - a)
-
-    return (a + b) / 2
