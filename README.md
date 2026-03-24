@@ -1,4 +1,4 @@
-                                                                        Optimization Methods
+                                                         Optimization Methods
             
 Finding the Minimum of a Function
 
